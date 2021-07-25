@@ -1,3 +1,108 @@
-h1 {
-  background-color: aquamarine;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: muli, sans-serif !important;
+  font-size: 18px;
+}
+
+.ttls_section {
+  font-family: "Montserrat", sans-serif;
+}
+.ttls_section.fw600 {
+  font-weight: 600;
+}
+.ttls_section.fw700 {
+  font-weight: bold;
+}
+
+.c_primary {
+  color: #002c81;
+}
+
+.c_secundary {
+  color: #19a8f3;
+}
+
+.alink {
+  color: #19a8f3;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn_crowd {
+  background: #44d371;
+  color: #ffffff;
+  border-radius: 2rem;
+  font-size: 0.9rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.wrapper_project_description {
+  padding: 3.5rem 0;
+}
+
+.wrapper_project_details {
+  background: #f0f2f7;
+  padding: 4rem;
+}
+.wrapper_project_details .drawer_list_details {
+  max-width: 725px;
+  margin: 0 auto;
+}
+.wrapper_project_details .drawer_list_details .line_row {
+  border-bottom: 1px solid #333;
+  position: relative;
+  min-height: 62.5px;
+}
+.wrapper_project_details .drawer_list_details .line_row:last-child {
+  border: none;
+}
+.wrapper_project_details .drawer_list_details .line_row .ico_list {
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.wrapper_project_details .drawer_list_details .line_row .ico_list img {
+  height: 33px;
+}
+.wrapper_project_details .drawer_list_details .line_row .col_first {
+  padding-left: 3rem;
+}
+
+.wrapper_market_study {
+  background: #002c81;
+  color: #eeeeee;
+  padding: 4rem 0;
+}
+.wrapper_market_study .box_item_market {
+  border-right: 1px solid #19a8f3;
+  text-align: center;
+}
+.wrapper_market_study .box_item_market:last-child {
+  border: none;
+}
+.wrapper_market_study .box_item_market .firt_p {
+  min-height: 60px;
+}
+.wrapper_market_study .box_item_market .sec_p {
+  padding-bottom: 2rem;
+}
+
+.wrapper_accordion .drawer_iframe_video {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.wrapper_accordion .drawer_iframe_video iframe {
+  width: 100% !important;
+}
+
+@media screen and (min-width: 1400px) {
+  .container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    max-width: 1024px;
+  }
 }

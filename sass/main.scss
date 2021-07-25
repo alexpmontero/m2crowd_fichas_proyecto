@@ -1,3 +1,119 @@
-h1{
-  background-color: aquamarine;
+// == FONTS SYSTEMS ==
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+// == COLOR SYSTEMS ==
+$black: #1f1f1f;
+$primary: #002c81;
+$secundary: #19a8f3;
+$bg_grey: #f0f2f7;
+$green: #44d371;
+// $shadows:  0 2px 9px rgba(219, 222, 236, 0.75);
+
+body {
+  font-family: muli, sans-serif !important;
+  font-size: 18px;
+}
+
+.ttls_section {
+  font-family: "Montserrat", sans-serif;
+  &.fw600 {
+    font-weight: 600;
+  }
+  &.fw700 {
+    font-weight: bold;
+  }
+}
+
+.c_primary {
+  color: $primary;
+}
+
+.c_secundary {
+  color: $secundary;
+}
+
+.alink{
+  color: $secundary;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn_crowd{
+  background: $green;
+  color: #ffffff;
+  border-radius: 2rem;
+  font-size: .90rem;
+  padding: .5rem 1.5rem;
+}
+
+.wrapper_project_description {
+  padding: 3.5rem 0;
+}
+
+.wrapper_project_details {
+  background: $bg_grey;
+  padding: 4rem;
+  .drawer_list_details {
+    max-width: 725px;
+    margin: 0 auto;
+    .line_row {
+      border-bottom: 1px solid #333;
+      position: relative;
+      min-height: 62.5px;
+      &:last-child {
+        border: none;
+      }
+      .ico_list {
+        position: absolute;
+        left: -20px;
+        top: 50%;
+        transform: translateY(-50%);
+        img {
+          height: 33px;
+        }
+      }
+      .col_first {
+        padding-left: 3rem;
+      }
+    }
+  }
+}
+
+.wrapper_market_study {
+  background: $primary;
+  color: #eeeeee;
+  padding: 4rem 0;
+  .box_item_market {
+    border-right: 1px solid $secundary;
+    text-align: center;
+    &:last-child {
+      border: none;
+    }
+    .firt_p {
+      min-height: 60px;
+    }
+    .sec_p{padding-bottom: 2rem;}
+  }
+}
+
+.wrapper_accordion{
+  .drawer_iframe_video{
+    max-width: 600px;
+    margin: 0 auto;
+    iframe{
+      width: 100% !important;
+    }
+  }
+  
+}
+
+@media screen and (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1024px;
+  }
 }

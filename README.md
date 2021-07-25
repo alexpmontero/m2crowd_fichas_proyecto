@@ -1,1 +1,2 @@
-# m2crowd_fichas_proyecto
+# Objetivo General:
+# Implementar el template html responsivo de de 2 fichas de proyecto con base un diseño proporcionado por M2Crowd que cumpla con las mejores practicas de Seguridad, SEO, optimización de imágenes sin perder la calidad y tiempo de carga.
