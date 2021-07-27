@@ -29,7 +29,7 @@ body {
 }
 
 .btn_crowd {
-  background: #44d371;
+  background: #349e55;
   color: #ffffff;
   border-radius: 2rem;
   font-size: 0.9rem;
@@ -172,6 +172,9 @@ tr {
   background: #f0f2f7;
   padding: 5rem 0 5rem;
 }
+.wrapper_schemes.exito {
+  background: #ffffff;
+}
 .wrapper_schemes .drawer_schemes_info .item_guarantee {
   text-align: center;
   margin: 0 auto;
@@ -255,6 +258,116 @@ tr {
   right: -5px;
 }
 
+.mysec {
+  padding: 5rem 0 1rem;
+}
+.mysec .drawer_charts {
+  max-width: 790px;
+  margin: 0 auto;
+}
+
+.wrapper_vs .drawer_charts {
+  max-width: 680px;
+  margin: 0 auto;
+  color: #00d859;
+}
+
+.wrapper_documentation {
+  background: #f0f2f7;
+  margin-top: 4rem;
+  padding: 4rem 0 9rem;
+}
+.wrapper_documentation .p_content {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.wrapper_documentation .p_content .ico_docu {
+  position: absolute;
+  top: -120px;
+  left: -20%;
+  width: 280px;
+}
+
+.wrapper_developer .drawer_develop {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper_developer .drawer_develop .box_logo_develop {
+  padding: 5rem 3rem 3rem;
+  width: 40%;
+  text-align: right;
+}
+.wrapper_developer .drawer_develop .box_logo_develop img {
+  height: 75px;
+  max-width: 100%;
+}
+.wrapper_developer .drawer_develop .box_info_develop {
+  width: 60%;
+  background: #002c81;
+  padding: 5rem 4rem 5rem;
+  color: #fefefe;
+}
+.wrapper_developer .drawer_develop .box_info_develop > div {
+  max-width: 580px;
+}
+
+.wrapper_paid_out .box_paid_out {
+  padding: 3.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper_paid_out .box_paid_out .box_paid_img {
+  max-width: 200px;
+  width: 100%;
+  text-align: center;
+}
+.wrapper_paid_out .box_paid_out .box_paid_img img {
+  max-width: 100%;
+}
+
+.wrapper_project_details.plazos {
+  background: #f0f2f7;
+  padding: 4rem 1rem;
+}
+.wrapper_project_details.plazos .drawer_list_details {
+  max-width: 725px;
+  margin: 0 auto;
+}
+.wrapper_project_details.plazos .drawer_list_details .line_row {
+  border-bottom: 1px solid #19a8f3;
+}
+.wrapper_project_details.plazos .drawer_list_details .line_row:last-child {
+  border: none;
+}
+
+.wrapper_investors {
+  background: #002c81;
+  padding: 3rem 0;
+  color: #ffffff;
+}
+.wrapper_investors tbody,
+.wrapper_investors td,
+.wrapper_investors tfoot,
+.wrapper_investors th,
+.wrapper_investors thead,
+.wrapper_investors tr {
+  border-color: #349e55;
+}
+.wrapper_investors tbody tr {
+  height: 100px;
+}
+.wrapper_investors tbody,
+.wrapper_investors td,
+.wrapper_investors tfoot,
+.wrapper_investors th,
+.wrapper_investors thead,
+.wrapper_investors tr {
+  width: 25%;
+  color: #ffffff;
+}
+
 @media screen and (min-width: 1400px) {
   .container,
 .container-lg,
@@ -268,6 +381,38 @@ tr {
 @media screen and (max-width: 768px) {
   .wrapper_market_study .col-md-3:nth-child(2) {
     border: 0;
+  }
+
+  .wrapper_paid_out .box_paid_out .box_paid_img {
+    max-width: 100px;
+    width: 100%;
+    margin-right: 1rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .wrapper_developer .drawer_develop {
+    flex-direction: column;
+  }
+  .wrapper_developer .drawer_develop .box_logo_develop {
+    padding: 5rem 3rem 2rem;
+    width: 100%;
+    text-align: center;
+  }
+  .wrapper_developer .drawer_develop .box_logo_develop img {
+    width: 275px;
+  }
+  .wrapper_developer .drawer_develop .box_info_develop {
+    width: 100%;
+    padding: 3rem 4rem;
+  }
+
+  .wrapper_schemes {
+    background: #f0f2f7;
+    padding: 5rem 0 0rem;
+  }
+  .wrapper_schemes.exito {
+    background: #ffffff;
   }
 }
 @media screen and (max-width: 575px) {
@@ -304,6 +449,33 @@ tr {
     padding-left: 3.5rem;
     line-height: 1.25;
   }
+
+  .wrapper_developer .drawer_develop .box_logo_develop {
+    padding: 3.5rem 1rem 2rem;
+  }
+  .wrapper_developer .drawer_develop .box_logo_develop img {
+    width: 250px;
+  }
+  .wrapper_developer .drawer_develop .box_info_develop {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .wrapper_documentation {
+    margin-top: 4rem;
+    padding: 4rem 0 7rem;
+  }
+  .wrapper_documentation .p_content {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .wrapper_documentation .p_content .ico_docu {
+    position: absolute;
+    top: -60px;
+    left: -10%;
+    width: 230px;
+  }
 }
 @media screen and (max-width: 420px) {
   .wrapper_accordion .accordion-button {
@@ -312,5 +484,9 @@ tr {
   }
   .wrapper_accordion .accordion-button::after {
     margin-left: auto;
+  }
+
+  .wrapper_paid_out .box_paid_out .box_paid_img {
+    max-width: 85px;
   }
 }
