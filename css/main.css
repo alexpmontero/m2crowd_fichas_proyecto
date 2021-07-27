@@ -147,6 +147,11 @@ tr {
   border: 0;
   border-bottom: 1px solid #dddddd;
 }
+.wrapper_accordion .box_icos_steps img {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
 
 .wrapper_table {
   margin-bottom: 5rem;
