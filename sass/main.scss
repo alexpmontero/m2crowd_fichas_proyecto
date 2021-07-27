@@ -207,9 +207,9 @@ tr {
       max-width: 600px;
       display: flex;
       .item_drop {
-        border: 3px solid transparent;
+        border: 3px solid #4cd275;
         border-image: linear-gradient(to right, #4cd275, #1aa9f1) 1;
-        border-collapse: collapse;
+        
         border-right: 0;
         width: 100%;
         text-align: center;
